@@ -32,7 +32,7 @@
 - **Decision:** Create `DEVLOG.md:1` as living log, retroactively document prior decisions (repo creation + DECALOG write) with UTC/IST timestamps derived from `git log --date=iso` (2026-08-25T14:27:36Z) and `date -u`. Define format, auto-update rule for future. Push to same repo.
 - **Outcome:** This file created. Next pushes will append new entries.
 - **Files:** `DEVLOG.md:1` (new), `DECALOG.md:1` (unchanged)
-- **Commit:** pending `feat: add DEVLOG with retroactive + live timestamped decision log`
+- **Commit:** `ddc7f0a` — `feat: add DEVLOG with retroactive + live timestamped decision log`
 
 ---
 
@@ -47,4 +47,4 @@
 - [ ] Mirror DEVLOG to `docs/DEVLOG.md` if repo grows beyond single file
 
 ---
-*Last updated: 2026-08-25T14:33:37Z*
+*Last updated: 2026-08-25T14:33:37Z — commit ddc7f0a*
