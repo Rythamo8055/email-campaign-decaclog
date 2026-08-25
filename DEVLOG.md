@@ -89,7 +89,7 @@
 - **Decision:** Start `python3 -m http.server 8000 --bind 0.0.0.0` in `/1st mail campain` (PID 1217916), verify via `curl -I http://localhost:8000/templates/job-application-email.html` → 200 OK, and append this DEVLOG entry before push.
 - **Outcome:** Server live. URLs: http://localhost:8000/templates/job-application-email.html, http://localhost:8000/ . Log at /tmp/py-server-8000.log. PID stored in /tmp/py-server.pid.
 - **Files:** `templates/job-application-email.html:1` (served), `DEVLOG.md:80` (updated)
-- **Commit:** pending `feat: run py server + log DEVLOG`
+- **Commit:** `cbf6033` — `feat: run py server 8000 to serve job-application template + log DEVLOG`
 
 ---
-*Last updated: 2026-08-25T14:50:53Z — commit d16bb2f (+ pending)*
+*Last updated: 2026-08-25T14:52:10Z — commit cbf6033*
