@@ -93,10 +93,17 @@
 
 #### [2026-08-25T15:04:58Z] — 20:34 IST — Decision: Integrate 3 new job/cold-email videos into Decalog + HTML template
 - **Conversation summary:** User provided 3 new transcripts: (4) Writing Cold Email for Job `KdrvhI7VRq8` — 5 Lego Bricks, (5) College Student $500k `XB2xmX3USUI` — zero-risk + niche DB + 4-module automation + reply diagnostics, (6) Find Clients Ready-to-Buy `sGnHyLfw68A` — GPT-5 deep research + FindMail + Lovable + Google Doc bypass. Asked "make this" → integrate into existing Bible.
-- **Decision:** Append `DECALOG.md:547` with new §7 ADDENDUM (7.1 five bricks + template + follow-up, 7.2 Sav $500k framework + volume math + copy cliffhangers, 7.3 ready-to-buy GPT-5/FindMail/Lovable/Doc system). Update `templates/job-application-email.html:1` header to include Brick5 angle + add variants D/E/F (5 Bricks, Sav zero-risk cliffhanger, Ready-to-Buy Lovable+Doc).
-- **Outcome:** Files edited, ready to verify + push. Server still live PID 1217916 on 8000.
+- **Decision:** Append `DECALOG.md:547` with new §7 ADDENDUM (7.1 five bricks + template + follow-up, 7.2 Sav $500k framework + volume math + copy cliffhangers, 7.3 ready-to-buy GPT-5/FindMail/Lovable/Doc system). Update `templates/job-application-email.html:1` header to include Brick5 angle + add variants D/E/F (5 Bricks, Sav zero-risk cliffhanger, Ready-to-Buy Lovable+Doc). Follow-up hash fix to `f61c19c`.
+- **Outcome:** Files edited, verified `wc -l` 682, pushed.
 - **Files:** `DECALOG.md:547` (+ ~180 lines), `templates/job-application-email.html:1` (header + variants)
-- **Commit:** `30a9a13` — `feat: add §7 addendum 3 videos + HTML variants D/E/F`
+- **Commit:** `30a9a13` → `f61c19c` — `feat: add §7` + `chore: update DEVLOG hash`
+
+#### [2026-08-25T15:27:33Z] — 20:57 IST — Decision: Make MDs useful via GH proof stack + devlog hub
+- **Conversation summary:** User: "so in md files add texts also templets like use my gh for my things i have done and there are devlogs in projects so make themuseful"
+- **Decision:** Create `templates/GH_PROOF_LIBRARY.md:1` (93 lines) indexing real GH repos (aegis-support-copilot, breachkit-redteam-lab 100%→0%, docuqa-rag 9/10, genar-ai-safety-reporting/EPSA, healthmetro-landing, snip-url-shortener, rythamo-portfolio) with proof lines + when-to-use + 3 copy snippets. Add `DECALOG.md:682` new §8 My GH Proof Stack with hub table linking `../ai engineer projects/DEVLOG.md:1`, `../lolak-solutions-security-audit/README.md:1`, `../Quick Hyre project/README.md:1`. Patch `templates/job-application-email.html:24` to inject real GH links (Aegis/BreachKit) + GH devlog hub line.
+- **Outcome:** 719 lines DECALOG, 93 lines GH_PROOF_LIBRARY, 241 lines HTML — ready to push. Server still 8000 PID 1217916.
+- **Files:** `templates/GH_PROOF_LIBRARY.md:1` (new), `DECALOG.md:682` (+37), `templates/job-application-email.html:24` (edited)
+- **Commit:** pending `feat: make MDs useful — GH proof stack + devlog hub`
 
 ---
-*Last updated: 2026-08-25T15:05:24Z — commit 30a9a13*
+*Last updated: 2026-08-25T15:27:33Z — commit f61c19c (+ pending)*

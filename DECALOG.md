@@ -675,7 +675,44 @@
 
 ---
 
-*Updated 2026-08-25T15:02 UTC — adds 3 new videos (Brick 5 + $500k + Ready-to-Buy). Prior decalog remains.*
+## 8. MY GH PROOF STACK — Make Your MDs Useful (Rythamo8055)
+
+> **Why this exists:** Per user request 2026-08-25 `DEVLOG.md:102` — add texts/templates that use *my* GH things + devlogs.  
+> **Source GH:** `gh repo list Rythamo8055` — live 2026-08-25T15:15Z.  
+> **Rule:** In cold email use same-industry proof `DECALOG.md:292` — pick 1 repo below that matches target, keep `templates/GH_PROOF_LIBRARY.md:1` as library.
+
+### 8.1 Real repos to quote (copy-paste ready)
+
+- **aegis-support-copilot** — https://github.com/Rythamo8055/aegis-support-copilot — Multi-agent support copilot: LangGraph durable + HITL approvals + eval-gated CI → `Built Aegis — multi-agent copilot with eval-gated CI`
+- **breachkit-redteam-lab** — https://github.com/Rythamo8055/breachkit-redteam-lab — Vulnerable RAG + OWASP LLM Top 10 attack suite + defenses 100%→0% → `Built BreachKit — OWASP red-team lab 100%→0%`
+- **docuqa-rag** — https://github.com/Rythamo8055/docuqa-rag — Production RAG 9/10 (hybrid search, rerank, cache, guardrails)
+- **genar-ai-safety-reporting / Quick Hyre EPSA** — `../Quick Hyre project/README.md:1` — Deterministic PADER + Gemma 4 31B + grounding verifier
+- **healthmetro-landing** — https://github.com/Rythamo8055/healthmetro-landing — Preventive healthcare landing
+- **snip-url-shortener** — https://github.com/Rythamo8055/snip-url-shortener — URL shortener TypeScript
+- **rythamo-portfolio / rythamo-studio / file-janitor** — portfolio hubs (JS/TS/Svelte) for breadth
+
+Full library with proof lines + when to use: `templates/GH_PROOF_LIBRARY.md:1`
+
+### 8.2 Devlog hub — cross-link to make useful
+
+| Project | Devlog/README | Use |
+|---|---|---|
+| ai engineer projects | `../ai engineer projects/DEVLOG.md:1` | A71 Termux server 12 decisions + content plan — quote to show systematic logging |
+| lolak-solutions-security-audit | `../lolak-solutions-security-audit/README.md:1` | HIGH risk 15 findings (MySQL exposed/XSS) — quote for security roles |
+| Quick Hyre project | `../Quick Hyre project/README.md:1` | EPSA PADER system |
+| email-campaign-decaclog (this) | `DEVLOG.md:1` | Living timestamped log — yourself |
+
+### 8.3 How to inject into your 3 drafts (see templates)
+
+- **Job apply (Brick):** Replace `{{achievement1}}` with 1 proof line above that matches target stack. Keep blue link. Example `DECALOG.md:578` → add `— see Aegis: https://github.com/Rythamo8055/aegis-support-copilot`
+- **Freelance zero-risk (Sav):** Keep `Sarah's TNW` but add `More proof: BreachKit 100%→0% — https://...` to double trust
+- **Ready-to-buy (Lovable):** After 4 Lovable links, add `P.S. I ship real — e.g., DocuQA-RAG prod — https://...` as 5th asset
+
+> See `templates/GH_PROOF_LIBRARY.md:1` §3 for 3 copy-paste snippets: AI Agent / Security / Healthcare-RAG — each one-liner ready for `{{personalization}}`.
+
+---
+
+*Updated 2026-08-25T15:15 UTC — adds §8 My GH Proof Stack + GH_PROOF_LIBRARY. Prior decalog remains.*
 
 ---
 
