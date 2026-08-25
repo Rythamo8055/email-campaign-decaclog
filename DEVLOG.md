@@ -80,9 +80,16 @@
 #### [2026-08-25T14:47:31Z] — 20:17 IST — Decision: Create HTML job-application template from Decalog lessons
 - **Conversation summary:** User: "so create templet from all these lessons for the applying of the jobs me a html templet and give me"
 - **Decision:** Build `templates/job-application-email.html:1` (224 lines, 16KB) as text-first, deliverability-safe HTML email implementing Triple Tap (DECALOG.md:284), 6-sentence rule (DECALOG.md:301), Spintax (DECALOG.md:309), personalization 2-8 words (DECALOG.md:416), no open tracking (DECALOG.md:327), signal/loss-leader/RLM variants, mailto CTA "yes", dark mode + responsive + Outlook table layout.
-- **Outcome:** File written, verified `wc -l` + `ls -lh`, ready to push.
+- **Outcome:** File written, verified `wc -l` + `ls -lh`, pushed. Follow-up hash update to `d16bb2f`.
 - **Files:** `templates/job-application-email.html:1` (new)
-- **Commit:** `591b570` — `feat: add job-application HTML template from Decalog`
+- **Commit:** `591b570` → `d16bb2f` — `feat: add job-application HTML template` + `chore: update DEVLOG hash`
+
+#### [2026-08-25T14:50:53Z] — 20:20 IST — Decision: Run Python HTTP server to serve template + update DEVLOG
+- **Conversation summary:** User: "run a python server and serve that file also update the devlog"
+- **Decision:** Start `python3 -m http.server 8000 --bind 0.0.0.0` in `/1st mail campain` (PID 1217916), verify via `curl -I http://localhost:8000/templates/job-application-email.html` → 200 OK, and append this DEVLOG entry before push.
+- **Outcome:** Server live. URLs: http://localhost:8000/templates/job-application-email.html, http://localhost:8000/ . Log at /tmp/py-server-8000.log. PID stored in /tmp/py-server.pid.
+- **Files:** `templates/job-application-email.html:1` (served), `DEVLOG.md:80` (updated)
+- **Commit:** pending `feat: run py server + log DEVLOG`
 
 ---
-*Last updated: 2026-08-25T14:48:21Z — commit 591b570*
+*Last updated: 2026-08-25T14:50:53Z — commit d16bb2f (+ pending)*
