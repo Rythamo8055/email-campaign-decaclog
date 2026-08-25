@@ -34,6 +34,13 @@
 - **Files:** `DEVLOG.md:1` (new), `DECALOG.md:1` (unchanged)
 - **Commit:** `ddc7f0a` — `feat: add DEVLOG with retroactive + live timestamped decision log`
 
+#### [2026-08-25T14:34:00Z] — 20:04 IST — Decision: Fix DEVLOG commit hash
+- **Conversation summary:** Follow-up after DEVLOG creation — placeholder `pending` needed replacement with real hash.
+- **Decision:** Edit `DEVLOG.md:35` + footer `DEVLOG.md:50` to replace pending → `ddc7f0a` and update `Last updated`.
+- **Outcome:** File patched, committed.
+- **Files:** `DEVLOG.md:35`, `DEVLOG.md:50`
+- **Commit:** `0d0736c` — `chore: fix DEVLOG commit hash to ddc7f0a`
+
 ---
 
 ## How logging works going forward
@@ -47,4 +54,12 @@
 - [ ] Mirror DEVLOG to `docs/DEVLOG.md` if repo grows beyond single file
 
 ---
-*Last updated: 2026-08-25T14:33:37Z — commit ddc7f0a*
+#### [2026-08-25T14:34:28Z] — 20:04 IST — Decision: Log the hash-fix itself (meta-logging per new rule)
+- **Conversation summary:** User rule requires every decision to be logged; hash-fix was a decision not yet logged.
+- **Decision:** Append this entry to `DEVLOG.md:50` so DEVLOG is self-consistent before next push.
+- **Outcome:** Entry added, ready to push.
+- **Files:** `DEVLOG.md:50`
+- **Commit:** `pending` → will be `feat: log hash-fix meta entry`
+
+---
+*Last updated: 2026-08-25T14:34:28Z — commit 0d0736c (+ meta entry)*
