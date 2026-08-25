@@ -96,7 +96,7 @@
 - **Decision:** Append `DECALOG.md:547` with new §7 ADDENDUM (7.1 five bricks + template + follow-up, 7.2 Sav $500k framework + volume math + copy cliffhangers, 7.3 ready-to-buy GPT-5/FindMail/Lovable/Doc system). Update `templates/job-application-email.html:1` header to include Brick5 angle + add variants D/E/F (5 Bricks, Sav zero-risk cliffhanger, Ready-to-Buy Lovable+Doc).
 - **Outcome:** Files edited, ready to verify + push. Server still live PID 1217916 on 8000.
 - **Files:** `DECALOG.md:547` (+ ~180 lines), `templates/job-application-email.html:1` (header + variants)
-- **Commit:** pending `feat: add §7 addendum 3 videos + HTML variants D/E/F`
+- **Commit:** `30a9a13` — `feat: add §7 addendum 3 videos + HTML variants D/E/F`
 
 ---
-*Last updated: 2026-08-25T15:04:58Z — commit f78908a (+ pending)*
+*Last updated: 2026-08-25T15:05:24Z — commit 30a9a13*
