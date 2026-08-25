@@ -50,6 +50,20 @@
 - **Files:** `DEVLOG.md:50`
 - **Commit:** `f71bd70` — `docs: log hash-fix meta entry in DEVLOG`
 
+#### [2026-08-25T14:34:40Z] — 20:04 IST — Decision: Fix DEVLOG chronology + commit hash f71bd70
+- **Conversation summary:** Meta entry placed after "How logging works" breaking chronology.
+- **Decision:** Move entry into chronological section `DEVLOG.md:44` and fix hash to `f71bd70`, update footer.
+- **Outcome:** Chronology corrected.
+- **Files:** `DEVLOG.md:44`, `DEVLOG.md:66`
+- **Commit:** `1b33c36` — `chore: fix DEVLOG chronology + commit hash f71bd70`
+
+#### [2026-08-25T14:46:00Z] — 20:16 IST — Decision: Show bullet points on request
+- **Conversation summary:** User: "now show me those bullet points"
+- **Decision:** Read `DECALOG.md:1` (547 lines) and rendered summarized bullets for §1 (40→8 tools), §2 (7 lessons), §3 (Cold masterclass), §4 Decalog to user with file_path:line_number refs.
+- **Outcome:** Displayed in chat, no file change.
+- **Files:** (read-only) `DECALOG.md:1`
+- **Commit:** — (no push)
+
 ---
 
 ## How logging works going forward
@@ -63,4 +77,12 @@
 - [ ] Mirror DEVLOG to `docs/DEVLOG.md` if repo grows beyond single file
 
 ---
-*Last updated: 2026-08-25T14:34:28Z — commit f71bd70*
+#### [2026-08-25T14:47:31Z] — 20:17 IST — Decision: Create HTML job-application template from Decalog lessons
+- **Conversation summary:** User: "so create templet from all these lessons for the applying of the jobs me a html templet and give me"
+- **Decision:** Build `templates/job-application-email.html:1` (224 lines, 16KB) as text-first, deliverability-safe HTML email implementing Triple Tap (DECALOG.md:284), 6-sentence rule (DECALOG.md:301), Spintax (DECALOG.md:309), personalization 2-8 words (DECALOG.md:416), no open tracking (DECALOG.md:327), signal/loss-leader/RLM variants, mailto CTA "yes", dark mode + responsive + Outlook table layout.
+- **Outcome:** File written, verified `wc -l` + `ls -lh`, ready to push.
+- **Files:** `templates/job-application-email.html:1` (new)
+- **Commit:** pending `feat: add job-application HTML template from Decalog`
+
+---
+*Last updated: 2026-08-25T14:47:31Z — commit 1b33c36 (+ pending)*

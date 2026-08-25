@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+  <title>{{role}} Application — {{yourName}}</title>
+  <!--
+    TEMPLATE: Job Application Cold Email — built from DECALOG lessons
+    File: templates/job-application-email.html:1
+    Source: DECALOG.md:1 ( §2 1B emails + §3 Cold Masterclass Triple Tap)
+    Repo: https://github.com/Rythamo8055/email-campaign-decaclog
+
+    HOW TO USE (pick 1 of 3 angles — Newness = Dopamine DECALOG.md:58):
+    A) Signal Angle (recommended): Reference their job post / tech stack / recent news
+    B) Loss Leader: Offer free mini-audit / free task (e.g., "I fixed your checkout bug for free")
+    C) Reverse Lead Magnet: "Want me to spend 1h researching X for you?"
+
+    PLACEHOLDERS — replace before sending (personalization DECALOG.md:306):
+    {{firstName}} — hiring manager first name (ALWAYS use DECALOG.md:306)
+    {{companyName}}, {{role}}, {{hiringSignal}} — 2-8 words non-public research DECALOG.md:416
+    {{yourName}}, {{yourTitle}}, {{yourPortfolio}}, {{yourLinkedIn}}, {{yourPhone}}
+    {{achievement1}}, {{achievement2}} — same-industry case study > random DECALOG.md:292
+    {{accountSignature}} — set at mailbox level DECALOG.md:162
+
+    SUBJECT LINES — test one element at a time DECALOG.md:319 (use reply rate, not open):
+    1. Question {{firstName}}?  // "Question Jay?" DECALOG.md:287
+    2. Sending cold emails? → Adapt: "{{role}} at {{companyName}}?"
+    3. Is this you on Google? → Adapt: "Is this you hiring {{role}}?"
+    Preview (first sentence) = decides open/report/trash DECALOG.md:286:
+      "Not sure if you're hiring... Jay, mind checking?" / "Saw you hiring {{role}} — quick question?"
+
+    SPINTAX — mandatory DECALOG.md:309 : {{hi|hello|hey}} {{firstName}},
+    Example: {{Hi|Hello|Hey}} {{firstName}},
+
+    DELIVERABILITY — DECALOG.md:327:
+    - Text-only, no open tracking, no links in Email1 if possible (portfolio in Email2)
+    - Plain not hyperlinked, only authoritative (LinkedIn/YouTube) if you must link
+    - 6 sentences max, 6th grade, no promo words (free/ guarantee/ act now)
+    - No unsubscribe in Email1 (friends don't), Email2: "If barking up wrong tree say away"
+  -->
+  <style>
+    /* Reset for email clients */
+    html, body { margin:0 !important; padding:0 !important; height:100% !important; width:100% !important; }
+    * { -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0pt !important; mso-table-rspace:0pt !important; }
+    img { -ms-interpolation-mode:bicubic; }
+    a { text-decoration:none; }
+    /* iOS blue links fix */
+    a[x-apple-data-detectors], .unstyle-auto-detected-links a, .aBn { border-bottom:0 !important; cursor:default !important; color:inherit !important; text-decoration:none !important; }
+    /* Responsive */
+    @media only screen and (max-width: 600px) {
+      .email-container { width:100% !important; margin:auto !important; }
+      .fluid { max-width:100% !important; height:auto !important; }
+      .stack-column, .stack-column-center { display:block !important; width:100% !important; max-width:100% !important; direction:ltr !important; }
+      .stack-column-center { text-align:center !important; }
+      .center-on-narrow { text-align:center !important; display:block !important; margin-left:auto !important; margin-right:auto !important; float:none !important; }
+      table.center-on-narrow { display:inline-block !important; }
+      .pad-narrow { padding-left:24px !important; padding-right:24px !important; }
+    }
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      .email-bg { background:#121212 !important; }
+      .email-container { background:#1e1e1e !important; }
+      .text-primary { color:#f1f1f1 !important; }
+      .text-secondary { color:#b0b0b0 !important; }
+      .card { background:#2a2a2a !important; border-color:#333 !important; }
+      .btn { background:#3b82f6 !important; }
+    }
+  </style>
+  <!--[if mso]>
+  <style type="text/css">
+    body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
+  </style>
+  <![endif]-->
+</head>
+<body width="100%" style="margin:0; padding:0; background-color:#f4f5f7;" class="email-bg">
+  <!-- Preheader (preview text) — DECALOG.md:286 -->
+  <div style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; mso-hide:all;">
+    Saw you hiring {{role}} at {{companyName}} — quick question about {{hiringSignal}}? &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+  </div>
+  <!-- Email Body -->
+  <center style="width:100%; background-color:#f4f5f7;" class="email-bg">
+    <div style="max-width:600px; margin:0 auto;" class="email-container">
+      <!--[if mso]>
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center"><tr><td>
+      <![endif]-->
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin:auto; background-color:#ffffff; border-radius:8px; overflow:hidden; border:1px solid #e5e7eb;" class="email-container card">
+        <!-- Header: Minimal brand — text-first DECALOG.md:70 -->
+        <tr>
+          <td style="padding:28px 32px 16px 32px; border-bottom:1px solid #f0f0f0;" class="pad-narrow">
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td style="text-align:left;">
+                  <p style="margin:0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:13px; letter-spacing:1.2px; text-transform:uppercase; color:#6b7280; font-weight:600;" class="text-secondary">{{yourName}} • {{yourTitle}}</p>
+                  <p style="margin:4px 0 0 0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; font-size:12px; color:#9ca3af;" class="text-secondary">{{yourPhone}} • <a href="https://{{yourPortfolio}}" style="color:#2563eb; text-decoration:underline;">{{yourPortfolio}}</a> • <a href="https://{{yourLinkedIn}}" style="color:#2563eb; text-decoration:underline;">LinkedIn</a></p>
+                </td>
+                <td style="text-align:right; vertical-align:top;">
+                  <!-- Small avatar/initials — no heavy image DECALOG.md:70 -->
+                  <div style="width:40px; height:40px; border-radius:50%; background:#2563eb; color:#fff; font-family:Arial,sans-serif; font-size:16px; font-weight:700; line-height:40px; text-align:center; display:inline-block;">{{initials}}</div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Body — Triple Tap DECALOG.md:284 -->
+        <tr>
+          <td style="padding:28px 32px 8px 32px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;" class="pad-narrow">
+            <!-- TAP 1: Preview handled in preheader. TAP 2: Read -->
+            <p style="margin:0 0 16px 0; font-size:16px; line-height:26px; color:#111827;" class="text-primary">
+              <!-- Spintax example: {{Hi|Hello|Hey}} -->
+              Hi {{firstName}},
+            </p>
+
+            <!-- Variant A: Signal Angle (RECOMMENDED) — DECALOG.md:416 non-public 2-8 words -->
+            <p style="margin:0 0 16px 0; font-size:16px; line-height:26px; color:#111827;" class="text-primary">
+              Saw you’re hiring <strong>{{role}}</strong> at {{companyName}} — <span style="color:#374151;">{{hiringSignal}}</span> caught my eye. Not sure if you’re still reviewing candidates?
+            </p>
+
+            <!-- TAP 2 continued: Problem + Mechanism + Credibility DECALOG.md:292 -->
+            <p style="margin:0 0 16px 0; font-size:16px; line-height:26px; color:#111827;" class="text-primary">
+              I help {{companyIndustry}} teams ship {{skill1}} 2× faster — at {{previousCompany}} I <strong>{{achievement1}}</strong> and <strong>{{achievement2}}</strong>. Same stack you use (<span style="background:#eff6ff; padding:2px 6px; border-radius:4px; font-size:14px;">{{techStack}}</span>).
+            </p>
+
+            <!-- Social proof — same-industry > random DECALOG.md:292 -->
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin:8px 0 20px 0; background:#f9fafb; border:1px solid #e5e7eb; border-radius:8px;" class="card">
+              <tr>
+                <td style="padding:16px 18px;">
+                  <p style="margin:0 0 6px 0; font-size:13px; color:#6b7280; letter-spacing:0.6px; text-transform:uppercase; font-weight:600;" class="text-secondary">Quick proof — not a blast</p>
+                  <p style="margin:0; font-size:14px; line-height:22px; color:#1f2937;" class="text-primary">
+                    “{{yourName}} cut our {{metric}} from X→Y in 3 weeks.” — {{referenceName}}, {{referenceTitle}} at {{referenceCompany}}<br>
+                    <span style="font-size:12px; color:#6b7280;" class="text-secondary">Case: <a href="https://{{caseStudyLink}}" style="color:#2563eb; text-decoration:underline;">{{caseStudyLink}}</a> (send in Email 2 if you follow Email1 no-link rule)</span>
+                  </p>
+                </td>
+              </tr>
+            </table>
+
+            <!-- TAP 3: CTA — one word, low resistance DECALOG.md:297 -->
+            <p style="margin:0 0 18px 0; font-size:16px; line-height:26px; color:#111827;" class="text-primary">
+              Would it be cool if I send over a <strong>1-page teardown</strong> of how I’d tackle {{companyPain}} at {{companyName}}?
+            </p>
+            <p style="margin:0 0 20px 0; font-size:15px; line-height:24px; color:#4b5563;" class="text-secondary">
+              Just reply <strong>“yes”</strong> — I’ll send it. Takes 5 min to read. If you already have more candidates than you can handle, just say <em>“away”</em> and I’ll remove you. <!-- Email2 delicate opt-out DECALOG.md:327 -->
+            </p>
+
+            <!-- CTA Button — still text-first, fallback is reply -->
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left" style="margin:0 0 8px 0;">
+              <tr>
+                <td style="border-radius:6px; background:#2563eb;" class="btn">
+                  <!-- NOTE: For Email1 use reply-only (no link) per deliverability. For Email2 you can enable this button. -->
+                  <a href="mailto:{{yourEmail}}?subject=Re:%20{{role}}%20at%20{{companyName}}&body=Yes%20—%20send%20the%20teardown" target="_blank" style="display:inline-block; padding:12px 22px; font-family:Arial,sans-serif; font-size:14px; font-weight:600; color:#ffffff; text-decoration:none; border-radius:6px;">Reply “yes” → get teardown</a>
+                </td>
+                <td style="padding-left:12px; font-family:Arial,sans-serif; font-size:13px; color:#6b7280;" class="text-secondary">
+                  or just hit reply
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Divider -->
+        <tr>
+          <td style="padding:8px 32px 0 32px;"><hr style="border:none; border-top:1px solid #f0f0f0; margin:0;"></td>
+        </tr>
+
+        <!-- PS + Signature — keep in unibox, no forwarding DECALOG.md:166 -->
+        <tr>
+          <td style="padding:18px 32px 6px 32px; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;" class="pad-narrow">
+            <p style="margin:0 0 10px 0; font-size:14px; line-height:22px; color:#4b5563;" class="text-secondary">
+              P.S. I noticed <span style="color:#111827;">{{personalization 2-8 words}}</span> — e.g., “your checkout uses {{tech}} and loads 4.2s on mobile” — that’s what I’d fix first. No pitch, just teardown.
+            </p>
+            <p style="margin:16px 0 4px 0; font-size:15px; line-height:24px; color:#111827; font-weight:600;" class="text-primary">— {{yourName}}</p>
+            <p style="margin:0; font-size:13px; line-height:20px; color:#6b7280;" class="text-secondary">
+              {{yourTitle}} • {{yourCity}} • <a href="https://{{yourPortfolio}}" style="color:#2563eb; text-decoration:underline;">Portfolio</a> • <a href="https://{{yourLinkedIn}}" style="color:#2563eb; text-decoration:underline;">LinkedIn</a><br>
+              Phone: {{yourPhone}} • Email: {{yourEmail}}
+            </p>
+          </td>
+        </tr>
+
+        <!-- Variants Switcher (comments only, not rendered) -->
+        <!--
+          VARIANT B — LOSS LEADER (DECALOG.md:259): Uncomment to use instead of teardown
+          <p>Want me to do one small ticket for free? I already drafted {{freeDeliverable}} for {{companyName}}. Just say “send it”.</p>
+
+          VARIANT C — REVERSE LEAD MAGNET (DECALOG.md:277): 5× replies
+          <p>Want me to spend an hour researching {{companyPain}} at {{companyName}} and put together a custom plan? Is that ok — just reply “ok”?</p>
+          Workflow: webhook → research → AI write custom page → send via ReplyJii
+
+          EMAIL 2 (same thread, 1d nudge DECALOG.md:315):
+          Subject: (same thread, no subject)
+          Body: Whats up {{firstName}} did you catch my email yesterday? It was about {{role}}. Got a minute? If barking up wrong tree say wrong tree —{{yourName}}
+
+          EMAIL 3 (dump, 5d, new thread test DECALOG.md:316):
+          Subject: yes or no — {{yourName}} for {{role}}?
+          Body: Since you didn’t reply I’ll dump value: 3 bullets + portfolio link {{yourPortfolio}} + 60s Loom {{loomLink}}. If you already hired, ignore me. Else want intro?
+        -->
+
+        <!-- Footer — minimal, CAN-SPAM bare minimum DECALOG.md:330 (address only if required) -->
+        <tr>
+          <td style="padding:18px 32px 28px 32px; font-family:Arial,sans-serif;" class="pad-narrow">
+            <p style="margin:0; font-size:11px; line-height:18px; color:#9ca3af; text-align:center;" class="text-secondary">
+              You’re receiving this because you posted a role for {{role}}. If you’re not hiring, reply “away” and I’ll remove you immediately.<br>
+              {{yourName}} • {{yourAddressLine}} • <a href="mailto:{{yourEmail}}?subject=Remove" style="color:#9ca3af; text-decoration:underline;">Remove me</a><br>
+              <span style="font-size:10px;">Plain-text version available — this email is text-first for deliverability (no tracking pixel) DECALOG.md:327</span>
+            </p>
+          </td>
+        </tr>
+      </table>
+      <!--[if mso]></td></tr></table><![endif]-->
+      <!-- View in browser + plain text fallback -->
+      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width:600px; margin:12px auto 0 auto;">
+        <tr>
+          <td style="text-align:center; font-family:Arial,sans-serif; font-size:11px; color:#9ca3af; padding:12px;">
+            <a href="https://{{yourPortfolio}}/resume.pdf" style="color:#9ca3af; text-decoration:underline;">View resume (PDF)</a> • Sent via {{espName}} • No tracking • <span style="color:#9ca3af;">Add {{yourEmail}} to contacts so reply goes to inbox</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </center>
+</body>
+</html>
