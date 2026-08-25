@@ -544,4 +544,139 @@
 
 ---
 
+## 7. ADDENDUM — 3 New Masterclasses (2026-08-25 Update)
+
+### 7.1 VIDEO 4 — Writing Cold Email for Job? (KdrvhI7VRq8) — 5 Lego Bricks
+
+#### Brick 1: Identify the Right Person (300% lift)
+- **Never `info@company.com`** — find *owner of problem* you solve
+- Titles to hunt: Head of Creative / Designer, Director of Data / Analyst, Demand / Growth Head, General Manager, Marketing lead
+- **How:** LinkedIn → company → exact person; website Team/Leadership/About us; industry directories/databases by role/industry
+- Sends directly to decision maker, not void
+
+#### Brick 2: Begin With WHY You Reached Out (not “Hi my name is”)
+- 90% fail because start with backstory — recruiters hate it, viewers hate it
+- **Start with their world:** `Your recent launch of XYZ caught my attention.` / `I saw your post on LinkedIn about scaling.` / `I noticed you’re hiring for a new data initiative.`
+- Hands recruiter first brick of trust; without credibility every later brick collapses
+
+#### Brick 3: Make a Small Request (not a job on first email)
+- Asking for job = proposing marriage on first date
+- **Small asks = higher reply:** `Could I ask a 2-minute question?` / `Could you point me to the right person?` / `Would you mind if I shared one idea I had?` — easy to answer
+
+#### Brick 4: Personalization That Actually Works — Moment not Achievement
+- **Never** `I admire your work.` — nobody believes it
+- **Refer a moment:** `In your podcast you mentioned struggling to find designers who understand conversion — that’s exactly what I solved at [recent work].`
+- Does 3 things: proves homework, taps existing pain, makes them feel understood → people reply to those who understand them
+
+#### Brick 5: Follow Up The Right Way (where most disappear)
+- Professionals persist with **no guilt, no pressure**
+- Lines: `Hi, touching base again — wanted to check if you had a chance to see my previous email.` / `Hi, circling back — no rush, just making sure my message reached you.`
+- **Wait 4-6 days** before follow-up; provides value, not pressure
+
+#### Biggest Mistake
+- Entire email about yourself — resume, degrees, goals, passion — **no one cares**; resume already delivers value
+- **Rule:** Talk more about *them*, pitch yourself softly/subtly, not forced
+
+#### Copy-Paste Template (from video)
+- **Subject:** Quick question about [specific team/project]
+- **Body:** `Hi, I came across your [post/project/team update] about [specific detail]. It immediately stood out because I've spent the last [duration] helping companies solve [related problem]. Would you mind if I share one idea? I think I could help your team with [pain point]. If I'm reaching the wrong person, could you point me to who owns this area? Thank you — [Name] | [LinkedIn] | [Portfolio optional]`
+
+### 7.2 VIDEO 5 — How College Student Made $500k with Cold Email (XB2xmX3USUI) — Sav Framework
+
+#### Origin Story (Trust > Money)
+- Landscape architecture student → gap semester, 6 months with girlfriend Alexandra → **$500k sales opportunities, $700k pipeline** via cold email alone
+- Started needing cash, learned AI/automation by doing → **free work for friends/family** (salon booking automation → solo operator $10k MRR) → used as first case studies even if not 1:1 (e.g., salon → video agencies)
+- **Lesson:** No case study = hard to cold; even unrelated case study proves you can help businesses, talk to owners, integrate systems
+
+#### Core Principle: Sell Outcome First, Build After Commitment
+- Don’t endlessly build — **speed to execution**; no perfect product → test offers via outbound
+- Build only after someone pays/commits; ability to build is no longer bottleneck (ChatGPT/Claude/n8n/Make tutorials everywhere) — bottleneck is talking to customers
+- Use proven systems: Nick/Nick’s channel templates that already sold → don’t reinvent wheel → put offer out, if commit then build
+
+#### Zero-Risk Offer (the closer)
+- `You don’t pay, no contract, totally free — I’ll build demo of exact thing for you, you could ghost me and waste my hours, only ask is permission to reference you to others like you.`
+- First video agency client: free → liked hustle → became first paying client, still pays 6-8 months later; second agency 3-4h live Zoom clicking mouse → happy to be reference → reply rates nearly doubled
+
+#### Outbound Playbook (top-to-bottom)
+- **1. Niche databases > Apollo/Sales Nav:** AI finds pre-filtered lists (e.g., AIA — American Institute of Architects — 0% non-architects). Use Perplexity/ChatGPT/GPT Research to ask “where are niche databases for X?” → scrapable domains → then pull decision makers. Saves guessing with Apollo filters.
+- **2. Deliverability:** Multiple domains, **5 inboxes/domain** (3 domains = 15 inboxes = 450/day ≈ 9k/month), **30 emails/inbox/day** not 300 from one; prevents spam
+- **3. Campaign & Offer:** Lead with value → free video (5-min loom > asking 30-min meeting) — apprehensive to meet → lead magnet lowers friction; then tweak weekly/monthly from data
+- **Volume math:** Started 1 domain ×5 =150/day lucky traction; Rec 3×5=450/day → 5% reply =450 replies/9k → 225 interested → ~10 meetings → 1 close even with no sales skill. Now 40-50 inboxes running
+
+#### Reply Rate Diagnostics (golden standard)
+- **<2%:** Lead list wrong or deliverability (inbox vs spam)
+- **2-5%:** Copy/offer not interesting enough (landing but ignored)
+- **5-10%:** **Golden zone** — enough pipeline with 3k leads
+- **>10%:** Amazing, reach out to collaborate
+- Also track: positive % , video views (Loom), meetings — not just sends →1 client
+
+#### Lead Process (nitty-gritty)
+- **AI → niche DB → enrichment (Apollo/Sales Navigator/Amplify) → clean (MillionVerifier) → personalize at scale**
+- **Automation (4 modules Make.com):** Google Sheet → Perplexity (research decision maker/company → short report on what matters) → ChatGPT (casual icebreaker) → back to Sheet. Stupid simple.
+- Infrastructure: 30/inbox many domains (no new detail)
+
+#### Copy & Subject Science
+- **Subject + first line = open:** Treat subject like internal team message → cliffhanger from friend/team not sales: `Is [Company] taking more clients?` / `Q from your neighbor` → curiosity, could be inquiry
+- **Personalized line at very top:** `Saw you were just down the street...` → curiosity, multiple possible reasons
+- **Offer structure:** Outcome + Time + Catch (risk reversal): `I’ll get you 10 meetings in 30 days, if not you don’t pay.` Meetings=outcome, 30d=time, free until results=catch
+- **Lead with video:** `Would it be of interest? You wouldn’t owe anything unless it drives results. Can I send 90-sec video?` vs `Can we talk?` — video shows everything, selling becomes easier after watch
+- **Word-for-word 0→1 copy #1:** Subject `Is [Company] taking more clients? — cute?` → Icebreaker local, `Been getting agency up, recently helped Sarah’s TNW (intentionally vague, not “beauty salon” → avoids disqualify) to six figures with AI automations. Put together intent-based email scraping system — books 23 discovery calls/month, would this be of interest? You wouldn’t owe unless results. Send 90-sec video?`
+- **Copy #2:** Subject `Q from your neighbor, [FirstName]` → `Bit out there, but we built outbound tool books 20+ meetings/month, no headcount, don’t pay till results. Helped small business break $10k/mo. Would love to send 2-min loom. P.S. Saw you just down the street in [Location] looking at creative agencies — had to reach. Would love thoughts even if not fit.`
+- **Humility pattern disrupt:** `Been getting agency up, I don’t have much experience, would do free` → refreshing vs Bro 10-word top-dog assumptive close → worked as pattern disrupt in era of stoic punchy 60-word corp emails; write like normal human not faceless corp
+
+#### Lessons & Data Compass
+- **Don’t overbuild;** outbound = direct market feedback — no replies = framing or offer bad, not product
+- **Talk to customers first:** Don’t pitch 18-module Gamma/Slack system (nobody cares in bubble) → pitch outcome `increase sales cycle 23% / close rate 15%, plug free, pay only if works` → proof then build
+- **Minimal setup → meetings → reinvest:** Need few tools to get meetings, then reinvest to scale
+- **Expect harsh replies:** Swearing/insults/mockery normal even at 20% reply (half positive, half “screw off”) — doesn’t mean idea bad
+- **Find crowd:** Track positive responses in Google Sheet (company size/industry/who you spoke to) → new lists use as frame → 3%→5%→8%→10%
+- **Data is compass:** Positive = keep going, negative = opposite direction. Focus: reply rate → positive % → video views → meetings → dissect drop-offs, don’t just `1000 emails →1 client`
+
+### 7.3 VIDEO 6 — Find Clients Who Immediately Need Your Service (sGnHyLfw68A) — $5k Ready-to-Buy System
+
+#### Premise
+- For every 100 targets, **3-4 actively posting** “I need XYZ” (LinkedIn/Reddit/Twitter/friends) → gold mine no one talks about → endless stream if you scrape posting intent
+
+#### Step 1: ChatGPT-5 Deep Research to Find Active Posters
+- Prompt (in description) → find people actively posting online needing your service, replace `lovable.dev` with your service (SEO, FB ads, etc.) + ask for **website domains**
+- Searches Twitter/LinkedIn/Reddit/IndieHackers/Medium for `lovable.dev help needed project`
+- Click Launch → wait 15-20 min → get CSV → open Sheets
+- Example: Company posted needing landing page + AI platform for sales talent placement + coaching → landing page + dashboard + blog → fits Lovable
+- **Manually verify fit** for each lead before finding contact (ensure you can help)
+
+#### Step 2: Find Email via FindMail.com
+- Have domains → **FindMail** email finder → single or bulk (50-5k domains) → target CEO/founder/CMO + validate + mobile optional
+- Single: paste domain → ~2 sec finds valid validated email → guaranteed deliverable
+- Bulk: list domains + titles → finds contacts + valid emails
+
+#### Step 3: Build Lead Magnet with Lovable.dev (AI coder)
+- **Lovable.dev** (~$20-30/mo, like ChatGPT for code) → feed job description → prompt via ChatGPT: `Take job description → write prompt for Lovable` → paste into Lovable → publishes website + dashboard
+- Example built: “Build winning sales teams that actually convert” landing + case studies + free trial + demo + **internal sales dashboard** (numbers/sessions/next actions) → publish → get external link
+- For dashboard: copy job spec’s dashboard ask → ChatGPT → Lovable prompt → build second asset
+
+#### Step 4: Cold Email Copy — Lead With Solution
+- **Bad:** `Hey John saw Twitter needing lovable.dev developer, interested.`
+- **Good:** `Hey John, little birdie told me about [specific problem]. I went ahead and made you 4 things — 2 websites + 2 web apps for your new sales product inside lovable.dev. [AI punchy line]. Want me to build full versions? If not keep this one.`
+- Use doc copy prompt → paste into ChatGPT + job description + firstName Jean + specs → generates: `Little birdie told me you’re launching new product but no landing page to capture leads — I made sample landing + internal dashboard showing sales talent placement + coaching + AI dashboard + blog. Want me to build full? If not keep.`
+- Packaged with Lovable links as value → book call → sell $5k
+
+#### Step 5: $1M Google Doc System (bypass spam)
+- **doc.new** → paste email + 4 Lovable links (Asset1=landing, Asset2=dashboard etc.) → Share → add FindMail email as **commenter** → Send → delivers via **Google Docs inbox** not yours → **always inbox**, avoids 4 links bounce/spam in Gmail
+- Title doc: `Sample landing page and internal dashboard for Jean` → grabs attention
+- Publish Lovable assets → copy links → compile in Doc `Asset #1: [link]`
+
+#### Game Plan to Monetize as Service
+- Process: ChatGPT-5 ready-to-buy → FindMail domain→contact→valid → ChatGPT personalized copy → Lovable lead magnet → Google Doc send
+- AI can build any lead magnet per service
+- **Pricing:** Find most expensive B2B providers ($25k service) → **pay-per-lead $500-$1k** → money-back guarantee (50× more closes) → stack retainers
+
+#### Template Assets Referenced
+- Prompts in Google Doc description, example Sheets CSV, Lovable $20 plan
+
+---
+
+*Updated 2026-08-25T15:02 UTC — adds 3 new videos (Brick 5 + $500k + Ready-to-Buy). Prior decalog remains.*
+
+---
+
 *Generated 2025-08-25 from transcripts — single-file decalog. Push to `main` and link in README.*

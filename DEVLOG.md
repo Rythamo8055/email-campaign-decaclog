@@ -86,10 +86,17 @@
 
 #### [2026-08-25T14:50:53Z] — 20:20 IST — Decision: Run Python HTTP server to serve template + update DEVLOG
 - **Conversation summary:** User: "run a python server and serve that file also update the devlog"
-- **Decision:** Start `python3 -m http.server 8000 --bind 0.0.0.0` in `/1st mail campain` (PID 1217916), verify via `curl -I http://localhost:8000/templates/job-application-email.html` → 200 OK, and append this DEVLOG entry before push.
+- **Decision:** Start `python3 -m http.server 8000 --bind 0.0.0.0` in `/1st mail campain` (PID 1217916), verify via `curl -I http://localhost:8000/templates/job-application-email.html` → 200 OK, and append this DEVLOG entry before push. Follow-up hash fix to `f78908a`.
 - **Outcome:** Server live. URLs: http://localhost:8000/templates/job-application-email.html, http://localhost:8000/ . Log at /tmp/py-server-8000.log. PID stored in /tmp/py-server.pid.
 - **Files:** `templates/job-application-email.html:1` (served), `DEVLOG.md:80` (updated)
-- **Commit:** `cbf6033` — `feat: run py server 8000 to serve job-application template + log DEVLOG`
+- **Commit:** `cbf6033` → `f78908a` — `feat: run py server` + `chore: update hash`
+
+#### [2026-08-25T15:04:58Z] — 20:34 IST — Decision: Integrate 3 new job/cold-email videos into Decalog + HTML template
+- **Conversation summary:** User provided 3 new transcripts: (4) Writing Cold Email for Job `KdrvhI7VRq8` — 5 Lego Bricks, (5) College Student $500k `XB2xmX3USUI` — zero-risk + niche DB + 4-module automation + reply diagnostics, (6) Find Clients Ready-to-Buy `sGnHyLfw68A` — GPT-5 deep research + FindMail + Lovable + Google Doc bypass. Asked "make this" → integrate into existing Bible.
+- **Decision:** Append `DECALOG.md:547` with new §7 ADDENDUM (7.1 five bricks + template + follow-up, 7.2 Sav $500k framework + volume math + copy cliffhangers, 7.3 ready-to-buy GPT-5/FindMail/Lovable/Doc system). Update `templates/job-application-email.html:1` header to include Brick5 angle + add variants D/E/F (5 Bricks, Sav zero-risk cliffhanger, Ready-to-Buy Lovable+Doc).
+- **Outcome:** Files edited, ready to verify + push. Server still live PID 1217916 on 8000.
+- **Files:** `DECALOG.md:547` (+ ~180 lines), `templates/job-application-email.html:1` (header + variants)
+- **Commit:** pending `feat: add §7 addendum 3 videos + HTML variants D/E/F`
 
 ---
-*Last updated: 2026-08-25T14:52:10Z — commit cbf6033*
+*Last updated: 2026-08-25T15:04:58Z — commit f78908a (+ pending)*
