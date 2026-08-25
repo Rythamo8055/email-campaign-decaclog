@@ -43,6 +43,15 @@
 
 ---
 
+#### [2026-08-25T14:34:28Z] — 20:04 IST — Decision: Log the hash-fix itself (meta-logging per new rule)
+- **Conversation summary:** User rule requires every decision to be logged; hash-fix was a decision not yet logged.
+- **Decision:** Append this entry to `DEVLOG.md:50` so DEVLOG is self-consistent before next push.
+- **Outcome:** Entry added, pushed as self-consistent logging.
+- **Files:** `DEVLOG.md:50`
+- **Commit:** `f71bd70` — `docs: log hash-fix meta entry in DEVLOG`
+
+---
+
 ## How logging works going forward
 - Every assistant turn that makes a decision (new file, edit, repo/gh action, summary) → append new row here BEFORE `git push`.
 - Timestamp source: `date -u +"%Y-%m-%dT%H:%M:%SZ"` and IST (`date`).
@@ -54,12 +63,4 @@
 - [ ] Mirror DEVLOG to `docs/DEVLOG.md` if repo grows beyond single file
 
 ---
-#### [2026-08-25T14:34:28Z] — 20:04 IST — Decision: Log the hash-fix itself (meta-logging per new rule)
-- **Conversation summary:** User rule requires every decision to be logged; hash-fix was a decision not yet logged.
-- **Decision:** Append this entry to `DEVLOG.md:50` so DEVLOG is self-consistent before next push.
-- **Outcome:** Entry added, ready to push.
-- **Files:** `DEVLOG.md:50`
-- **Commit:** `pending` → will be `feat: log hash-fix meta entry`
-
----
-*Last updated: 2026-08-25T14:34:28Z — commit 0d0736c (+ meta entry)*
+*Last updated: 2026-08-25T14:34:28Z — commit f71bd70*
