@@ -103,7 +103,7 @@
 - **Decision:** Create `templates/GH_PROOF_LIBRARY.md:1` (93 lines) indexing real GH repos (aegis-support-copilot, breachkit-redteam-lab 100%→0%, docuqa-rag 9/10, genar-ai-safety-reporting/EPSA, healthmetro-landing, snip-url-shortener, rythamo-portfolio) with proof lines + when-to-use + 3 copy snippets. Add `DECALOG.md:682` new §8 My GH Proof Stack with hub table linking `../ai engineer projects/DEVLOG.md:1`, `../lolak-solutions-security-audit/README.md:1`, `../Quick Hyre project/README.md:1`. Patch `templates/job-application-email.html:24` to inject real GH links (Aegis/BreachKit) + GH devlog hub line.
 - **Outcome:** 719 lines DECALOG, 93 lines GH_PROOF_LIBRARY, 241 lines HTML — ready to push. Server still 8000 PID 1217916.
 - **Files:** `templates/GH_PROOF_LIBRARY.md:1` (new), `DECALOG.md:682` (+37), `templates/job-application-email.html:24` (edited)
-- **Commit:** pending `feat: make MDs useful — GH proof stack + devlog hub`
+- **Commit:** `f204a97` — `feat: make MDs useful — GH proof stack + devlog hub`
 
 ---
-*Last updated: 2026-08-25T15:27:33Z — commit f61c19c (+ pending)*
+*Last updated: 2026-08-25T15:28:46Z — commit f204a97*
