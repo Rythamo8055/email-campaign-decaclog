@@ -82,7 +82,7 @@
 - **Decision:** Build `templates/job-application-email.html:1` (224 lines, 16KB) as text-first, deliverability-safe HTML email implementing Triple Tap (DECALOG.md:284), 6-sentence rule (DECALOG.md:301), Spintax (DECALOG.md:309), personalization 2-8 words (DECALOG.md:416), no open tracking (DECALOG.md:327), signal/loss-leader/RLM variants, mailto CTA "yes", dark mode + responsive + Outlook table layout.
 - **Outcome:** File written, verified `wc -l` + `ls -lh`, ready to push.
 - **Files:** `templates/job-application-email.html:1` (new)
-- **Commit:** pending `feat: add job-application HTML template from Decalog`
+- **Commit:** `591b570` — `feat: add job-application HTML template from Decalog`
 
 ---
-*Last updated: 2026-08-25T14:47:31Z — commit 1b33c36 (+ pending)*
+*Last updated: 2026-08-25T14:48:21Z — commit 591b570*
