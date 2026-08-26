@@ -131,7 +131,7 @@
 - **Decision:** Created `data/leads_top3.csv:1` (Valent/Tario/Wolfia with JobURL, Domain, LinkedInSearch, proof, signal, FindMail placeholder) + `data/emails_top3.md:1` (Perplexity 2-line + 3 emails each: Email1 Brick, Email2 nudge `DECALOG.md:315`, Email3 dump `DECALOG.md:316`, with spintax/small ask/no-link rule). Verified `ls -lh`, `curl -I 200` server still PID 1217916.
 - **Outcome:** Files written (1.8K CSV, 6.1K MD), live at http://localhost:8000/data/leads_top3.csv and /emails_top3.md, ready to push.
 - **Files:** `data/leads_top3.csv:1` (new), `data/emails_top3.md:1` (new)
-- **Commit:** pending `feat: add top-3 lead pack CSV + personalized emails`
+- **Commit:** `c92ff04` — `feat: add top-3 lead pack CSV + personalized emails`
 
 ---
-*Last updated: 2026-08-26T03:00:21Z — commit f204a97 (+ pending)*
+*Last updated: 2026-08-26T03:01:14Z — commit c92ff04*
