@@ -105,5 +105,33 @@
 - **Files:** `templates/GH_PROOF_LIBRARY.md:1` (new), `DECALOG.md:682` (+37), `templates/job-application-email.html:24` (edited)
 - **Commit:** `f204a97` — `feat: make MDs useful — GH proof stack + devlog hub`
 
+#### [2026-08-25T15:30:00Z] — 21:00 IST — Decision: Explain where to find leads
+- **Conversation summary:** User: "then where to find leads" → asked for lead sources.
+- **Decision:** Summarized `DECALOG.md:212` 4 lanes: (1) LinkedIn → Apollo/TrustedLeads $50/10k, (2) Not on LinkedIn → LeadSwift/IGLeads Maps, (3) Niche DB via Perplexity (AIA), (4) Ready-to-buy GPT-5 → FindMail. Added filters, clean/qualify flow, volume math.
+- **Outcome:** Answered in chat with table + file refs, no push.
+- **Files:** (read-only) `DECALOG.md:212`, `templates/GH_PROOF_LIBRARY.md:1`
+- **Commit:** — (no push)
+
+#### [2026-08-25T15:31:00Z] — 21:01 IST — Decision: Clarify ICP for lead find
+- **Conversation summary:** User: "can you find them" — ambiguous.
+- **Decision:** Asked via `question` tool: Job roles vs Clients vs Both. Checked local `kam find job/govt-jobs-research-report.md:1` (CSE 2027, GPA 8.78, GATE key) + GH `ai engineer projects/README.md:1` to infer AI Engineer ICP.
+- **Outcome:** User answered "Job roles to apply to".
+- **Files:** `kam find job/govt-jobs-research-report.md:1` (read), GH list
+- **Commit:** — (no push)
+
+#### [2026-08-25T15:32:00Z] — 21:02 IST — Decision: Websearch live AI Engineer leads + provide 7
+- **Conversation summary:** User confirmed job roles. Needed live proof.
+- **Decision:** Ran `websearch` for "AI Engineer hiring India Aug 2026" → got 7 live roles (Valent, Meraki-Labs, Optexity, Wolfia 16-33 LPA, Tario LangGraph, Fello, Libra AI) with Brick1 owner mapping + GH proof mapping, cited sources, linked to niche DB strategy `DECALOG.md:601`.
+- **Outcome:** Delivered table with company/role/location/source + who to email + which GH repo to quote. Offered to build Sheet + FindMail bulk + personalized emails.
+- **Files:** (websearch results)
+- **Commit:** — (no push)
+
+#### [2026-08-26T03:00:21Z] — 08:30 IST — Decision: Build top-3 lead pack CSV + personalized emails (user said yes)
+- **Conversation summary:** User: "yes" to building Google Sheet + FindMail bulk + 5 personalized emails for top 3.
+- **Decision:** Created `data/leads_top3.csv:1` (Valent/Tario/Wolfia with JobURL, Domain, LinkedInSearch, proof, signal, FindMail placeholder) + `data/emails_top3.md:1` (Perplexity 2-line + 3 emails each: Email1 Brick, Email2 nudge `DECALOG.md:315`, Email3 dump `DECALOG.md:316`, with spintax/small ask/no-link rule). Verified `ls -lh`, `curl -I 200` server still PID 1217916.
+- **Outcome:** Files written (1.8K CSV, 6.1K MD), live at http://localhost:8000/data/leads_top3.csv and /emails_top3.md, ready to push.
+- **Files:** `data/leads_top3.csv:1` (new), `data/emails_top3.md:1` (new)
+- **Commit:** pending `feat: add top-3 lead pack CSV + personalized emails`
+
 ---
-*Last updated: 2026-08-25T15:28:46Z — commit f204a97*
+*Last updated: 2026-08-26T03:00:21Z — commit f204a97 (+ pending)*
